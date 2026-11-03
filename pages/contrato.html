@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natal-2026</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../style/style-contrato.css">
+
+</head>
+
+<body>
+    <!-- ----- -->
+    <header class="cabecalho">
+        <div class="container">
+            <p class="etiqueta">Feliz Natal!</p>
+
+            <h1>Fabrica do Papai Noel</h1>
+
+            <p class="subtitulo">
+                Seja-bem vindo a fábrica do papai Noel
+            </p>
+
+            <nav class="menu-principal">
+                <ul class="menu-lista">
+                    <li><a class="menu-link" href="index.html">Home</a></li>
+                    <li><a class="menu-link" href="./pages/contrato.html">Contrato (Para Gnomos)</a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <!--  -->
+    <main class="container">
+        <section class="secao">
+
+            <h1>PROCURA-SE NOVOS GNOMOS - </h1>
+            <img src="../img/gnomo.png" alt="">
+            <br>
+            <h2>Formulário para contato</h2>
+
+            <form class="formulario" action="#" method="post">
+                <fieldset>
+                    <legend>Identificação</legend>
+
+                    <div class="campo-formulario">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" minlength="3"
+                            maxlength="80" required>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="email@exemplo.com.br">
+                    </div>
+
+                    <div>
+                        <div class="campo-formulario">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone">
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="site">Linkedin</label>
+                            <input type="url" name="site" id="site" placeholder="https://">
+                        </div>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Função almejada</legend>
+
+                    <div class="campo-formulario">
+                        <label for="assunto">Função:</label>
+
+                        <select name="assunto" id="assunto" required>
+                            <option value="">Selecione a função</option>
+                            <option value="embalar">Embalar Presentes</option>
+                            <option value="fabricar">Fabricar Presentes</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferências</legend>
+
+                    <div class="campo-formulario">
+                        <label for="data">Data preferida para começo:</label>
+                        <input type="date" id="data" name="data">
+                    </div>
+
+                    <div class="campo-fomulario">
+                        <label for="horario">Horario preferido:</label>
+                        <input type="time" name="horario" id="horario">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="cor">Escolha a cor das suas embalagens:</label>
+                        <input type="color" name="cor" id="cor" value="#2563ff">
+                    </div>
+
+        
+                </fieldset>
+                <!--  -->
+                <fieldset>
+                    <legend>Mensagem:</legend>
+
+                    <div class="campo-formulario">
+                        <label for="mensagem">Escreva sua mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" rows="8" minlength="10" maxlength="1000"
+                            placeholder="Escreva aqui..." required></textarea>
+                    </div>
+                </fieldset>
+                <div class="acoes-formulario">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+    <!--  -->
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; Natal de 2026 - por Cláudio Noel Benedito</p>
+
+            <address>
+                <a href="malito:hoho@gmail.com">Email</a>
+                <span> | </span>
+                <a href="tel:+550800-021-2121">Telefone</a>
+                <span> | </span>
+                <a href="https://github.com/quintin0p">GitHub</a>
+            </address>
+        </div>
+    </footer>
+    <!-- ----- -->
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.etiqueta {
+    margin-bottom: 5px;
+    color: #bb051f;
+    font-size: 13px; /* Corrigido: adicionado px */
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.cabecalho h1 {
+    color: #bb051f;
+    width: 300px;
+}
+
+.menu-lista {
+    margin: 20px 0 0; /* Corrigido: removido o '0p' inválido */
+    padding: 0;
+    list-style: none;
+}
+
+.menu-lista li {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.rodape {
+    margin-top: 40px;
+    padding: 25px;
+    color: #354863;
+    background-color: #9bc1a2;
+    text-align: center;
+}
+
+.rodape address {
+    font-style: normal;
+}
+
+.rodape a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    background-color: #9bc1a2;
+    color: aliceblue;
+    padding: 30px;
+}
+
+.menu-link {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #e27c7c;
+    color: #bb051f;
+    border: 1px solid #e27c7c;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
