@@ -2,14 +2,17 @@
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
+    font-family: 'Caviar Dreams';
 }
 
 .etiqueta {
     margin-bottom: 5px;
     color: #bb051f;
-    font-size: 13px; /* Corrigido: adicionado px */
+    font-size: 13px;
+    /* Corrigido: adicionado px */
     font-weight: bold;
     letter-spacing: 2px;
+    font-family: 'Lolicandy';
 }
 
 .cabecalho h1 {
@@ -18,7 +21,8 @@
 }
 
 .menu-lista {
-    margin: 20px 0 0; /* Corrigido: removido o '0p' inválido */
+    margin: 20px 0 0;
+    /* Corrigido: removido o '0p' inválido */
     padding: 0;
     list-style: none;
 }
@@ -27,6 +31,7 @@
     display: inline-block;
     margin-right: 8px;
     margin-bottom: 8px;
+    font-family: 'Lolicandy';
 }
 
 .rodape {
@@ -49,6 +54,7 @@
     background-color: #9bc1a2;
     color: aliceblue;
     padding: 30px;
+    
 }
 
 .menu-link {
@@ -64,4 +70,34 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+@font-face {
+    font-family: 'Chomage';
+    src: url(../fonts/chomage_2/Chomage.ttf) format('truetype');
+
+}
+
+h1{
+    font-family: 'Chomage';
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: 'Lolicandy';
+    src: url(../fonts/lolicandy/Lolicandy.ttf) format('truetype');
+}
+
+h2{
+    font-family: 'Lolicandy';
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../fonts/caviar_dreams/CaviarDreams_Bold.ttf) format('truetype');
+
+}
+
+.rezende{
+    border: 4px solid #000000;
 }
